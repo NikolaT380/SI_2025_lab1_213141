@@ -1,28 +1,28 @@
 Дел 2:
 
-13. git fetch origin
-14. git checkout BRANCH
-15. Имплементација на методот во јава
+13. git fetch origin - со оваа команда ги земаме сите гранки од одалечениот репозиториум
+14. git checkout BRANCH - одиме на гранката каде што сакаме да функционираме
+15. Имплементација на методот во јава - го имплементираме методот во класата taskmanager користејќи intellij
 16. git add .
-    git commit -m "Implemented method_name method"
-17. git push origin BRANCH
+    git commit -m "Implemented method_name method" - ги додаваме и зачувуваме промените
+17. git push origin BRANCH - за гранката ги правиме промените на github
 19. чекори 14-18, наместо BRANCH 1-remove-a-task-by-name, 2-find-all-completed-tasks и 8-mark-a-task-as-completed-by-name
 22. git checkout master
-    git merge 8-mark-a-task-as-completed-by-name
-23. git push origin master
+    git merge 8-mark-a-task-as-completed-by-name - во мастер ја спојуваме третата гранка
+23. git push origin master - за мастер ги правиме промените на github
 25. git log --oneline --graph --all > logs.txt
     git add logs.txt 213141.txt
-    git commit -m "Final commit"
-26. git push origin master
+    git commit -m "Final commit" - креираме лог на целата историја за git logs.txt и заедно со документот 213141.txt правиме финален commit
+26. git push origin master - синхронизираме со мастер гранката на  оддалеченото репо
 
 
 Дел 3:
 
-28. git clone https://github.com/NikolaT380/SI_2025_lab1_151020.git
+28. git clone https://github.com/NikolaT380/SI_2025_lab1_151020.git - го земаме fork документот локално
 29. cd .\SI_2025_lab1_151020
     echo "Nikola" > 213141.txt
     git add 213141.txt
-    git commit -m "Add file"
-30. git push origin master
+    git commit -m "Add file" - во фолдерот SI_2025_lab1_151020 креираме 213141.txt со содржина никола и правиме commit
+30. git push origin master - синхронизација со мастер гранката на оддалеченото репо
 
 
