@@ -1,0 +1,28 @@
+Дел 2:
+
+13. git fetch origin
+14. git checkout BRANCH
+15. Имплементација на методот во јава
+16. git add .
+    git commit -m "Implemented method_name method"
+17. git push origin BRANCH
+19. чекори 14-18, наместо BRANCH 1-remove-a-task-by-name, 2-find-all-completed-tasks и 8-mark-a-task-as-completed-by-name
+22. git checkout master
+    git merge 8-mark-a-task-as-completed-by-name
+23. git push origin master
+25. git log --oneline --graph --all > logs.txt
+    git add logs.txt 213141.txt
+    git commit -m "Final commit"
+26. git push origin master
+
+
+Дел 3:
+
+28. git clone https://github.com/NikolaT380/SI_2025_lab1_151020.git
+29. cd .\SI_2025_lab1_151020
+    echo "Nikola" > 213141.txt
+    git add 213141.txt
+    git commit -m "Add file"
+30. git push origin master
+
+
